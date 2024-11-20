@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "./Card";
-import Table from "../Table";
+import Card from "../components/Card"
+import Table from "../components/Table"; 
+
 
 const Dashboard = () => {
   const cardData = [
@@ -11,7 +12,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="bg-teal-50 p-6 space-y-6 ">
+    <div className="bg-teal-50 p-6 space-y-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cardData.map((card, index) => (
           <Card key={index} title={card.title} value={card.value} />
