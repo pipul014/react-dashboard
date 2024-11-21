@@ -2,11 +2,11 @@ import React from "react";
 
 const Table = () => {
   const data = [
-    { id: 1, name: "Pipul Dolai", email: "pipuldolai@example.com", role: "Admin" },
+    { id: 0, name: "Pipul Dolai", email: "pipuldolai@example.com", role: "Admin" },
     { id: 2, name: "Rohit Sharma", email: "rohitsharma@example.com", role: "User" },
-    { id: 3, name: "Bob Johnson", email: "bob@example.com", role: "User" },
-    { id: 4, name: "Alice Smith", email: "alice@example.com", role: "User" },
-    { id: 5, name: "Jane Doe", email: "jane@example.com", role: "Admin" },
+    { id: 3, name: "Rohan dais", email: "rohandias@example.com", role: "User" },
+    { id: 4, name: "Shyam", email: "shyam@example.com", role: "User" },
+    { id: 5, name: "James ", email: "james@example.com", role: "Admin" },
   ];
 
   return (
@@ -24,9 +24,8 @@ const Table = () => {
           {data.map((item, index) => (
             <tr
               key={item.id}
-              className={`border-b ${index % 2 === 0 ? "bg-gray-50" : "bg-white"}`}
             >
-              <td className="px-6 py-4">{item.id}</td>
+              <td className="px-6 py-4 ">{item.id}</td>
               <td className="px-6 py-4">{item.name}</td>
               <td className="px-6 py-4">{item.email}</td>
               <td className="px-6 py-4">{item.role}</td>
