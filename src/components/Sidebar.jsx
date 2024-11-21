@@ -4,15 +4,15 @@ import { LayoutGrid, Home, User, Settings, LogOut } from "lucide-react";
 
 const Sidebar = () => {
   const menuItems = [
-    { icon: <LayoutGrid />, name: "Dashboard", link: "/dashboard" },
-    { icon: <Home />, name: "Home", link: "/" },
+    { icon: <LayoutGrid />, name: "Dashboard", link: "/" },
+    { icon: <Home />, name: "Home", link: "/home" },
     { icon: <User />, name: "Profile", link: "/profile" },
     { icon: <Settings />, name: "Settings", link: "/settings" },
     { icon: <LogOut />, name: "Logout", link: "/logout" },
   ];
 
   return (
-    <div className="w-40 bg-gray-800 text-white h-screen flex flex-col">
+    <div className="w-40 bg-gray-800 text-white min-h-screen flex flex-col ">
       <ul className="space-y-1 mt-10">
         {menuItems.map((item, index) => (
           <li key={index} className="relative group">

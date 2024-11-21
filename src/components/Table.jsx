@@ -2,9 +2,11 @@ import React from "react";
 
 const Table = () => {
   const data = [
-    { id: 1, name: "John Doe", email: "john@example.com", role: "Admin" },
-    { id: 2, name: "Jane Smith", email: "jane@example.com", role: "User" },
+    { id: 1, name: "Pipul Dolai", email: "pipuldolai@example.com", role: "Admin" },
+    { id: 2, name: "Rohit Sharma", email: "rohitsharma@example.com", role: "User" },
     { id: 3, name: "Bob Johnson", email: "bob@example.com", role: "User" },
+    { id: 4, name: "Bob Johnson", email: "bob@example.com", role: "User" },
+    { id: 5, name: "Bob Johnson", email: "bob@example.com", role: "User" },
   ];
 
   return (

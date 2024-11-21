@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 const Settings = () => {
   return (
-    <div>
+    <div className="bg-teal-50">
       <h1>this is settings page</h1>
     </div>
   )

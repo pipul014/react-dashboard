@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-teal-500 shadow-md px-6 py-4 flex justify-between items-center">
+    <div className="bg-teal-500  shadow-md px-6 py-4 flex justify-between items-center sticky z-50 ">
       <h1 className="text-xl font-semibold hover:text-white">
         <a href="#">Dashboard</a>
       </h1>
